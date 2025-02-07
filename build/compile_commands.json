@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/workspaces/AP1400-2-HW1/build",
+  "command": "/usr/local/bin/c++  -I/workspaces/AP1400-2-HW1/include -g -std=gnu++14 -o CMakeFiles/main.dir/src/main.cpp.o -c /workspaces/AP1400-2-HW1/src/main.cpp",
+  "file": "/workspaces/AP1400-2-HW1/src/main.cpp"
+},
+{
+  "directory": "/workspaces/AP1400-2-HW1/build",
+  "command": "/usr/local/bin/c++  -I/workspaces/AP1400-2-HW1/include -g -std=gnu++14 -o CMakeFiles/main.dir/src/hw1.cpp.o -c /workspaces/AP1400-2-HW1/src/hw1.cpp",
+  "file": "/workspaces/AP1400-2-HW1/src/hw1.cpp"
+},
+{
+  "directory": "/workspaces/AP1400-2-HW1/build",
+  "command": "/usr/local/bin/c++  -I/workspaces/AP1400-2-HW1/include -g -std=gnu++14 -o CMakeFiles/main.dir/src/unit_test.cpp.o -c /workspaces/AP1400-2-HW1/src/unit_test.cpp",
+  "file": "/workspaces/AP1400-2-HW1/src/unit_test.cpp"
+}
+]

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/hw1.h
+vector
+-
+
+/workspaces/AP1400-2-HW1/src/unit_test.cpp
+gtest/gtest.h
+/workspaces/AP1400-2-HW1/src/gtest/gtest.h
+gmock/gmock.h
+/workspaces/AP1400-2-HW1/src/gmock/gmock.h
+hw1.h
+/workspaces/AP1400-2-HW1/src/hw1.h
+

@@ -3,7 +3,9 @@
 #include "gmock/gmock.h"
 #include "hw1.h"
 
-/*
+using Matrix = algebra::Matrix;
+
+
 TEST(HW1Test, ZEROS) {
     Matrix matrix{algebra::zeros(5, 6)};
 
@@ -322,7 +324,7 @@ TEST(HW1Test, ERO_SUM) {
     EXPECT_TRUE(ero[2] == matrix[2]);
 
     // check the value of the elements
-    for (size_t i{}; i < ero[3].size(); i++)
+    for (size_t i = 0; i < ero[3].size(); i++)
         EXPECT_NEAR(ero[3][i], matrix[0][i]*2+matrix[3][i], 0.03);
 }
 
@@ -360,7 +362,6 @@ TEST(HW1Test, BONUS) {
     EXPECT_NEAR(res2[2][1], 0, 0.03);
     EXPECT_NEAR(res2[2][2], 39/4.0, 0.03);
 }
-*/
 
 
 

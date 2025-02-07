@@ -1,0 +1,10 @@
+^D:\桌面\GITHUB仓库\AP1400\AP1400-2-HW1\BUILD\CMAKEFILES\B899CAF7074D6AD7BD5CEB3F3F9FCF90\GENERATE.STAMP.RULE
+setlocal
+D:\Cmake\bin\cmake.exe -SD:/桌面/Github仓库/AP1400/AP1400-2-HW1 -BD:/桌面/Github仓库/AP1400/AP1400-2-HW1/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/桌面/Github仓库/AP1400/AP1400-2-HW1/build/AP.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
