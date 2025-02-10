@@ -1,1 +1,1 @@
-/usr/local/bin/c++ -g CMakeFiles/main.dir/src/main.cpp.o CMakeFiles/main.dir/src/hw1.cpp.o CMakeFiles/main.dir/src/unit_test.cpp.o -o main  /usr/local/lib/libgtest.a /usr/local/lib/libgtest_main.a /usr/local/lib/libgtest.a -lpthread 
+/usr/bin/c++ -g CMakeFiles/main.dir/src/main.cpp.o CMakeFiles/main.dir/src/hw1.cpp.o CMakeFiles/main.dir/src/unit_test.cpp.o -o main  /mnt/d/anaconda3/Library/lib/gtest_main.lib /mnt/d/anaconda3/Library/lib/gtest.lib 

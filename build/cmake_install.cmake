@@ -1,4 +1,4 @@
-# Install script for directory: /workspaces/AP1400-2-HW1
+# Install script for directory: /mnt/d/桌面/Github仓库/AP1400/AP1400-2-HW1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/workspaces/AP1400-2-HW1/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/d/桌面/Github仓库/AP1400/AP1400-2-HW1/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

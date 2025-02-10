@@ -12,11 +12,14 @@
 		[
 			"add_executable",
 			"target_link_libraries",
+			"__gtest_define_backwards_compatible_library_targets",
+			"find_package",
 			"include_directories"
 		],
 		"files" : 
 		[
-			"CMakeLists.txt"
+			"CMakeLists.txt",
+			"/usr/share/cmake-3.28/Modules/FindGTest.cmake"
 		],
 		"nodes" : 
 		[
@@ -30,15 +33,43 @@
 				"parent" : 0
 			},
 			{
-				"command" : 1,
+				"command" : 3,
 				"file" : 0,
-				"line" : 15,
+				"line" : 6,
 				"parent" : 0
 			},
 			{
+				"file" : 1,
+				"parent" : 2
+			},
+			{
 				"command" : 2,
+				"file" : 1,
+				"line" : 204,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 185,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 181,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
 				"file" : 0,
 				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 15,
 				"parent" : 0
 			}
 		]
@@ -49,20 +80,30 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g"
-				},
-				{
-					"fragment" : "-std=gnu++14"
+					"fragment" : "-g -std=gnu++14"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"backtrace" : 3,
-					"path" : "/workspaces/AP1400-2-HW1/include"
+					"backtrace" : 7,
+					"path" : "/mnt/d/\u684c\u9762/Github\u4ed3\u5e93/AP1400/AP1400-2-HW1/include"
+				},
+				{
+					"backtrace" : 8,
+					"isSystem" : true,
+					"path" : "/mnt/d/anaconda3/Library/include"
 				}
 			],
 			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					8
+				],
+				"standard" : "14"
+			},
 			"sourceIndexes" : 
 			[
 				0,
@@ -85,22 +126,13 @@
 				"role" : "flags"
 			},
 			{
-				"backtrace" : 2,
-				"fragment" : "/usr/local/lib/libgtest.a",
+				"backtrace" : 5,
+				"fragment" : "/mnt/d/anaconda3/Library/lib/gtest_main.lib",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 2,
-				"fragment" : "/usr/local/lib/libgtest_main.a",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 2,
-				"fragment" : "/usr/local/lib/libgtest.a",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "-lpthread",
+				"backtrace" : 6,
+				"fragment" : "/mnt/d/anaconda3/Library/lib/gtest.lib",
 				"role" : "libraries"
 			}
 		],
